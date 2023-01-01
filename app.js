@@ -1,4 +1,5 @@
 const grid = document.createElement('div');
-const resetBtn = document.querySelector('#1');
 const container = document.querySelector('.container');
-
+const resetBtn = document.querySelector('#reset');
+const newBtn = document.querySelector('#new');
+const colorBtn = document.querySelector('#color');
