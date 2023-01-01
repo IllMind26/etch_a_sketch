@@ -53,8 +53,8 @@ button {
     color: black;
 }
 
-#1,
-#2,
-#3 {
+#reset,
+#new,
+#color {
     border: 2px solid black;
 }
