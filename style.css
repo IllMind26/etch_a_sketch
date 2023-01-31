@@ -19,7 +19,13 @@ h1 {
     text-align: center;
 }
 
+#main {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
 .container {
+    display: grid;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
@@ -65,8 +71,7 @@ button {
     transform: scale(1.2);
 }
 
-.grid {
+div.box {
     display: grid;
-    grid-template-columns: repeat(16, auto);
-    grid-template-rows: repeat(16, auto);
+    grid-template-rows: repeat(16, 1fr);
 }
