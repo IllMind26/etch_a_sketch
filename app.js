@@ -8,15 +8,12 @@ function makeGrid(content) {
     container.id = 'main';
     container.classList.add('container');
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 256; i++) {
         let row = container.appendChild(document.createElement('div'));
         row.classList.add('row');
         row.id = 'row' + i;
-        for (let j = 0; j < 16; j++) {
-            let box = row.appendChild(document.createElement('div'));
-            box.classList.add('box');
-
-        }
+        // let box = row.appendChild(document.createElement('div'));
+        // box.classList.add('box');
     }
 
 }
