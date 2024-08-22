@@ -10,7 +10,6 @@ html {
 
 /* Main Body */
 
-.main {
+main {
     display: flex;
-    border: 2px solid red;
 }
