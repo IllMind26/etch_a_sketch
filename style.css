@@ -1,9 +1,16 @@
 /* Total Page */
-
-* {
-    color: red;
+html {
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
 }
 
-body {
-    font-family: Rubik;
+* {
+    border: 2px solid red;
+}
+
+/* Main Body */
+
+.main {
+    display: flex;
+    border: 2px solid red;
 }
