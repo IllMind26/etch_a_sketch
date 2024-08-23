@@ -1,15 +1,62 @@
 /* Total Page */
-html {
-    box-sizing: border-box;
+:root {
     font-family: Rubik, sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
 * {
     border: 2px solid red;
+    box-sizing: border-box;
 }
 
 /* Main Body */
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+/* Buttons */
+
+.settings {
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+}
+
+/* Etch-A-Sketch */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 1200px;
+    height: 75vh;    
+    max-height: 1400px;
+    font-size: 1.5em;
+    text-align: center;
 }
